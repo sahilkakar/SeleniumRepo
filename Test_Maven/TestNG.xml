@@ -1,0 +1,72 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+
+
+<!-- <suite name="Testing TestNG"> <test name="Regression"> <classes> <class 
+	name="classic.TestNG" /> </classes> </test> </suite> -->
+
+
+
+<!-- <suite name="Testing TestNG"> <parameter name="para 1" value="Sahil" 
+	/> <test name="Test1"> <groups> <run> <include name="regression" /> <exclude 
+	name="broken" /> </run> </groups> <classes> <class name="classic.TestNG" 
+	/> </classes> </test> </suite> -->
+
+
+<suite name="TestSuite">
+
+	<test name="CRMPRO tests">
+
+		<groups>
+
+			<run>
+
+				<include name="regression" />
+
+
+			</run>
+
+		</groups>
+
+		<classes>
+
+			<class name="classic.TestNG" />
+
+
+
+		</classes>
+
+
+
+	</test>
+
+
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

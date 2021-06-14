@@ -1,0 +1,10 @@
+com\qa\crm\pages\ContactsPage.class
+classic\TestNG.class
+classic\Broken.class
+com\qa\crm\pages\CalenderPage.class
+com\qa\crm\util\TestUtil.class
+classic\DynamicTable.class
+classic\Launch.class
+com\qa\crm\base\TestBase.class
+com\qa\crm\pages\HomePage.class
+com\qa\crm\pages\LoginPage.class

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="185332" started-at="2021-04-22T17:33:48 IST" finished-at="2021-04-22T17:36:54 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="185332" started-at="2021-04-22T17:33:48 IST" finished-at="2021-04-22T17:36:54 IST">
+      <class name="com.qa.crm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@6321e813]" name="setUp" is-config="true" duration-ms="34755" started-at="2021-04-22T17:35:21 IST" finished-at="2021-04-22T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPgeTitleTest()[pri:1, instance:com.qa.crm.testcases.LoginPageTest@6321e813]" name="validateLoginPgeTitleTest" duration-ms="309" started-at="2021-04-22T17:35:56 IST" finished-at="2021-04-22T17:35:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPgeTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.crm.testcases.LoginPageTest@6321e813]" name="tearDown" is-config="true" duration-ms="12628" started-at="2021-04-22T17:35:57 IST" finished-at="2021-04-22T17:36:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginPgeTitleTest status=SUCCESS method=LoginPageTest.validateLoginPgeTitleTest()[pri:1, instance:com.qa.crm.testcases.LoginPageTest@6321e813] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.crm.testcases.LoginPageTest@6321e813]" name="setUp" is-config="true" duration-ms="23897" started-at="2021-04-22T17:36:09 IST" finished-at="2021-04-22T17:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.qa.crm.testcases.LoginPageTest@6321e813]" name="loginTest" duration-ms="17965" started-at="2021-04-22T17:36:33 IST" finished-at="2021-04-22T17:36:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.crm.testcases.LoginPageTest@6321e813]" name="tearDown" is-config="true" duration-ms="2745" started-at="2021-04-22T17:36:51 IST" finished-at="2021-04-22T17:36:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:2, instance:com.qa.crm.testcases.LoginPageTest@6321e813] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.crm.testcases.LoginPageTest -->
+      <class name="com.qa.crm.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d]" name="setUpSuite" is-config="true" duration-ms="689" started-at="2021-04-22T17:33:48 IST" finished-at="2021-04-22T17:33:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d]" name="setUp" is-config="true" duration-ms="76189" started-at="2021-04-22T17:33:48 IST" finished-at="2021-04-22T17:35:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnNewContactsLinkTest()[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d]" name="clickOnNewContactsLinkTest" duration-ms="6241" started-at="2021-04-22T17:35:06 IST" finished-at="2021-04-22T17:35:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNewContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="2186" started-at="2021-04-22T17:35:12 IST" finished-at="2021-04-22T17:35:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnNewContactsLinkTest status=SUCCESS method=ContactsPageTest.clickOnNewContactsLinkTest()[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createNewContactTest()[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d]" name="createNewContactTest" duration-ms="4438" started-at="2021-04-22T17:35:14 IST" depends-on-methods="com.qa.crm.testcases.ContactsPageTest.clickOnNewContactsLinkTest" finished-at="2021-04-22T17:35:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d]" name="tearDown" is-config="true" duration-ms="2826" started-at="2021-04-22T17:35:19 IST" finished-at="2021-04-22T17:35:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewContactTest status=SUCCESS method=ContactsPageTest.createNewContactTest()[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.crm.testcases.ContactsPageTest@3cef309d]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2021-04-22T17:36:54 IST" finished-at="2021-04-22T17:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.crm.testcases.ContactsPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
